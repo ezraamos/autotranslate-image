@@ -1,0 +1,32 @@
+{
+  "name": "autoranslate-image",
+  "version": "1.0.0",
+  "description": "MVP for chapter autotraslate",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezraamos/autotranslate-image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezraamos/autotranslate-image/issues"
+  },
+  "homepage": "https://github.com/ezraamos/autotranslate-image#readme",
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "konva": "^8.3.5",
+    "node-fetch": "2.6.1",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
